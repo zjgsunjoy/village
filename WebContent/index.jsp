@@ -19,6 +19,8 @@ if((village.entity.User)session.getAttribute("user")==null){
     <link href="css/default.css" type="text/css" rel="stylesheet">
 
     <script language="javascript" src="js/menu.js" type="text/javascript"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<script src="js.bootstrap.min.js" type="text/javascript"></script>
 </head>
 <body onLoad="javascript:border_left('left_tab1','left_menu_cnt1');">
     <form id="form1" runat="server">
@@ -42,8 +44,7 @@ if((village.entity.User)session.getAttribute("user")==null){
                     <td class="menu">
                         <ul class="bigbtu">
                             <li id="now01"><a title="安全退出" href="method!loginout">安全退出</a></li>
-                            
-                            
+                                                      
                         </ul>
                     </td>
                     <td class="tab">

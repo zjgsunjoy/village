@@ -32,7 +32,7 @@ public class Fangchan implements Serializable{
 	
 	private Zhuhu zhuhu;
 	
-	private String menpaihao;//门牌�?
+	private String menpaihao;//门牌号
 	
 	private Date createtime;
 	

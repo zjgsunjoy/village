@@ -9,11 +9,11 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
     <link href="css/main.css" type="text/css" rel="stylesheet">
 </head>
-<body style="background:url(images/bg-3.jpg);background-repeat:no-reapeat:background-position:0px 0px">
+<body style="background: url(images/bg-3.jpg) no-repeat; background-size: 100%">
     <br/>
     <br/>
     <br/>
-    <div style="font-size: 40px;font-weight: bold;"  align="center"> 欢迎进入文正小区物业管理系统</div>
+    <div style="font-size: 40px; color:white"  align="center"> 欢迎进入文正小区物业管理系统</div>
 
 </body>
 </html>

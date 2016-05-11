@@ -21,7 +21,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         border="0">
         <tr>
             <th colspan="3">
-              查看维修信息</th>
+              查看投诉信息</th>
         </tr>
         
     </table>
@@ -34,14 +34,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <input type="hidden" name="id" value="${bean.id }"/>
     
     <tr>
-      <td align="right">维修标题:</td>
+      <td align="right">投诉标题:</td>
       <td><input type="text" name="title" value="${bean.title }" readonly="readonly"/></td>
       
     </tr>
 
     
     <tr>
-      <td align="right">维修内容:</td>
+      <td align="right">投诉内容:</td>
       <td>
       <textarea rows="7" cols="50" name="content" readonly="readonly">${bean.content }</textarea>
       </td>
@@ -50,14 +50,14 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     
     
      <tr>
-      <td align="right">维修结果:</td>
+      <td align="right">投诉结果:</td>
       <td><input type="text" name="title" value="${bean.chulijieguo }" readonly="readonly"/></td>
       
     </tr>
 
     
     <tr>
-      <td align="right">维修反馈:</td>
+      <td align="right">投诉反馈:</td>
       <td>
       <textarea rows="7" cols="50" name="content" readonly="readonly">${bean.chulifankui }</textarea>
       </td>
